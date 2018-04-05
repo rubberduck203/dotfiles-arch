@@ -1,0 +1,8 @@
+[user]
+  email = Chris.McClellan203@gmail.com
+  name = Christopher J. McClellan
+[alias]
+  fuckit = reset
+  fix = !git add -A && git commit --amend --no-edit
+  rstat = !git fetch && git status
+  lg = log --color --graph --abbrev-commit --pretty=oneline
