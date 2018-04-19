@@ -10,7 +10,8 @@ alias ll='ls -l'
 alias vi='vim'
 
 PS1='[\u@\h \W]\$ '
-# >>> Added by cnchi installer
+
+BROWSER=/usr/bin/chromium
 EDITOR=/usr/bin/vim
 
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
