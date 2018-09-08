@@ -9,6 +9,10 @@ alias ls='ls --color=auto'
 alias ll='ls -l'
 alias vi='vim'
 
+# let sudo use my aliases
+# https://superuser.com/a/382601/361752
+alias sudo='sudo '
+
 PS1='[\u@\h \W]\$ '
 
 BROWSER=/usr/bin/chromium
